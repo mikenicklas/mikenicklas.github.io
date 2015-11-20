@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/1.5 "fira-sans-2", sans-serif;
   color: #111111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -60,7 +60,7 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 300; }
 
 /**
  * Links
@@ -148,18 +148,19 @@ pre {
  * Site header
  */
 .site-header {
-  border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
+  text-transform: uppercase;
   position: relative; }
 
 .site-title {
-  font-size: 26px;
-  font-weight: 300;
+  font-size: 18px;
+  font-weight: 500;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; }
+  float: left;
+  text-transform: uppercase; }
   .site-title, .site-title:visited {
     color: #424242; }
 
@@ -170,7 +171,8 @@ pre {
     display: none; }
   .site-nav .page-link {
     color: #111111;
-    line-height: 1.5; }
+    line-height: 1.5;
+    font-size: 12px !important; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
