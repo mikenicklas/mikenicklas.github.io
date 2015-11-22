@@ -148,7 +148,6 @@ pre {
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   text-transform: uppercase;
   position: relative; }
@@ -181,7 +180,6 @@ pre {
       top: 9px;
       right: 15px;
       background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -214,7 +212,6 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
   padding: 30px 0; }
 
 .footer-heading {
