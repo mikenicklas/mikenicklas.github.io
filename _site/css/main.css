@@ -2,22 +2,38 @@
   padding: 0;
   margin: 0; }
 
+html, body {
+  height: 100%;
+  width: 100%; }
+
 body {
   font-family: 'fira sans 2', sans-serif;
-  color: #747474; }
+  color: #fff;
+  padding: 20px; }
+
+.hero-wrapper {
+  height: 100%;
+  width: 100%;
+  display: table;
+  position: relative;
+  background-image: url("../background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.hero-content {
+  display: table-cell;
+  vertical-align: middle; }
 
 h1, h2, h3, h4, h5, .headline {
-  font-family: 'Adelle', serif;
-  color: #4e4e4e; }
+  font-family: 'Adelle', serif; }
 
 .headline {
-  font-size: 28px; }
+  font-size: 28px;
+  letter-spacing: 1px; }
 
 .lead {
-  font-size: 16px; }
-
-.header {
-  margin-top: 25%; }
+  font-size: 16px;
+  color: #e6e8fc; }
 
 .header .lead {
   margin-top: 20px;
